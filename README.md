@@ -1,7 +1,9 @@
 # binance_order_cli
 Python CLI trading bot for Binance Futures Test net supporting MARKET, LIMIT and STOP_LIMIT orders with validation, logging and error handling.
-https://replit.com/@jogdandaarya111/Binance-Order-Bot?replId=496c49a5-1d59-4b1f-a99a-41506dc94062#binance_order_cli/bot
+https://binance-order-bot--jogdandaarya111.replit.app
+https://replit.com/@jogdandaarya111/Binance-Order-Bot?replId=496c49a5-1d59-4b1f-a99a-41506dc94062#replit.md
 Binance Futures Testnet trading bot implementation
+https://replit.com/@jogdandaarya111/Binance-Order-Bot?replId=496c49a5-1d59-4b1f-a99a-41506dc94062#binance_order_cli/bot/client.py
 binance_order_cli/
 │
 ├── bot/
