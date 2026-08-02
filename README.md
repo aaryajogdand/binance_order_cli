@@ -39,7 +39,7 @@ binance_order_cli/
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/aaryajogdand/binance_order_cli.git](https://github.com/aaryajogdand/binance_order_cli.git)
+  git clone https://github.com/aaryajogdand/binance_order_cli.git
 cd binance_order_cli
 pip install -r requirements.txt
 python cli.py
