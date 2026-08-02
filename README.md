@@ -1,19 +1,44 @@
-# binance_order_cli
-Python CLI trading bot for Binance Futures Test net supporting MARKET, LIMIT and STOP_LIMIT orders with validation, logging and error handling.
-https://binance-order-bot--jogdandaarya111.replit.app
-https://replit.com/@jogdandaarya111/Binance-Order-Bot?replId=496c49a5-1d59-4b1f-a99a-41506dc94062#replit.md
-Binance Futures Testnet trading bot implementation
-https://replit.com/@jogdandaarya111/Binance-Order-Bot?replId=496c49a5-1d59-4b1f-a99a-41506dc94062#binance_order_cli/bot/client.py
+# Binance Futures Order CLI
+
+A robust Python command-line interface (CLI) for executing trades on the Binance Futures Testnet. Built with strict input validation, logging, and error handling.
+
+---
+
+## ✨ Features
+
+- **Order Types Supported:** Place `MARKET`, `LIMIT`, and `STOP_LIMIT` orders.
+- **Input Validation:** Automatically validates trading pair symbols, side (`BUY`/`SELL`), quantity, and price formats before sending requests.
+- **Logging System:** Logs API responses, order details, and execution errors to log files for tracking.
+- **Testnet Ready:** Safely test strategies using Binance Futures Testnet credentials without risking real capital.
+
+---
+
+## 🛠️ Project Structure
+
+```text
 binance_order_cli/
-│
 ├── bot/
 │   ├── __init__.py
 │   ├── client.py
 │   ├── orders.py
 │   ├── validators.py
 │   └── logging_config.py
-│
 ├── cli.py
-├── README.md
 ├── requirements.txt
 └── .env.example
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.9 or higher
+- Binance Futures Testnet API Key & Secret Key
+
+### Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/aaryajogdand/binance_order_cli.git](https://github.com/aaryajogdand/binance_order_cli.git)
+cd binance_order_cli
+pip install -r requirements.txt
