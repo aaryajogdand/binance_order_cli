@@ -27,18 +27,16 @@ binance_order_cli/
 ├── requirements.txt
 └── .env.example
 ---
+---
 
-🚀 Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
 - Python 3.9 or higher
-- Binance Futures Testnet API Key & Secret Key
 
 ### Installation & Setup
 
 1. **Clone the repository:**
    ```bash
-   git clone (https://github.com/aaryajogdand/binance_order_cli.git)
-cd binance_order_cli
-pip install -r requirements.txt
+   git clone [https://github.com/aaryajogdand/binance_order_cli.git](https://github.com/aaryajogdand/binance_order_cli.git)
